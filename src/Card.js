@@ -14,9 +14,9 @@ function Card({
   return (
     <div className="flex flex-col m-4 ">
         {/* Image div */}
-      <div className="w-full">
+      <div className="h-[250px] w-full">
         {" "}
-        <img src={photo} className="object-cover rounded-2xl" />
+        <img src={photo} className="object-cover rounded-2xl w-full h-full" />
       </div>
 
         {/* Middle div */}
