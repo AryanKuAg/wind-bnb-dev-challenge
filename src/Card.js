@@ -24,7 +24,7 @@ function Card({
         <div className="flex items-baseline">{superHost && (
           <button className="border-[1px] border-gray-600 text-sm font-semibold px-3 rounded-full mr-2 py-1">SUPER HOST</button>
         )}
-        <p className="text-[#828282]">{`${type}${beds && ", " + beds + " beds"}`}</p></div>
+        <p className="text-[#828282]">{`${type}${beds ? ", " + beds + " beds":""}`}</p></div>
         
         <div className="flex items-baseline">
           <img src="/star.svg" className="h-4 w-4 mr-1" />
